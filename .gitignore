@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Dataset files
+*.csv
+*.xlsx
+
+# Model files (include only if intentionally sharing)
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
